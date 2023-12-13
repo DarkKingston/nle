@@ -48,4 +48,52 @@
     filter: blur(3px);
     opacity: 0.6;
 }
-/* promo section end */
+
+.promo_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 210px;
+    padding: 5px 10px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    color: #fff;
+    cursor: pointer;
+}
+.promo_button svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+}
+.promo_button svg rect {
+    width: 100%;
+    stroke: #fff;
+    stroke-width: 6;
+    stroke-dasharray: 422, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+.promo_button:hover svg rect {
+    stroke-width: 6;
+    stroke-dasharray: 130, 185;
+    stroke-dashoffset: 183;
+}
+
+.promo_button:hover{
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.7);
+    -webkit-transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+.promo_button.active{
+    box-shadow: none;
+}
