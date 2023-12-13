@@ -1,0 +1,11 @@
+/* reset & base & fonts styles */
+@import './reset.css';
+@import './base.css';
+@import './fonts.css';
+
+/* components styles */
+@import './components/header.css';
+@import './components/footer.css';
+
+/* page styles */
+@import './pages/index.css'
