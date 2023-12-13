@@ -72,6 +72,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
 .promo_button svg rect {
@@ -93,7 +94,4 @@
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.7);
     -webkit-transition: all 600ms cubic-bezier(1, 0, 0, 1);
     transition: all 600ms cubic-bezier(1, 0, 0, 1);
-}
-.promo_button.active{
-    box-shadow: none;
 }
