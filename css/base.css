@@ -1,21 +1,26 @@
 body {
-  background: #111;
+  background: #F8F8FD;
   display: flex;
   flex-direction: column;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
+  color: #25324B;
 }
 
 main{
+  margin-top: 145px;
   flex: auto;
 }
 
 .container{
-    max-width: 1430px;
+    max-width: 1230px;
     padding: 0 15px;
     position: relative;
     margin: 0 auto;
     width: -webkit-fill-available;
+}
+
+section{
+  padding: 72px 0;
 }
