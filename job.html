@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLE</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+           <div class="header_wrapper">
+
+            <div class="header_logo">
+                <img src="/icons/logo.png" alt="logo">
+            </div>
+
+            <div class="header_box">
+                <ul class="header_menu">
+                    <li class="header_menu_item">
+                        <a href="/">Главная</a>
+                    </li>
+                    <li class="header_menu_item active">
+                        <a href="job.html">Работа</a>
+                    </li>
+                    <li class="header_menu_item">
+                        <a href="term.html">Условия</a>
+                    </li>
+                </ul>
+                <div class="header_langs">
+                    <div class="header_lang_current">
+                        RU
+                        <span>
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.924 6.66875C18.6997 3.15524 15.6151 0.620149 11.931 0.0997447C10.9813 -0.033249 10.0177 -0.0332481 9.06796 0.0997466C5.38738 0.619017 2.30499 3.15037 1.07996 6.65975C0.309283 8.81664 0.309283 11.1739 1.07996 13.3307C2.30357 16.8431 5.38637 19.3779 9.06896 19.8997C10.0186 20.033 10.9823 20.033 11.932 19.8997C15.6126 19.3805 18.6949 16.8491 19.92 13.3397C20.6906 11.1829 20.6906 8.82563 19.92 6.66875H19.924ZM18.5 9.99975C18.5008 10.6747 18.4145 11.3469 18.243 11.9997H15.365C15.4499 11.3364 15.495 10.6685 15.5 9.99975C15.4951 9.33097 15.4501 8.6631 15.365 7.99974L18.244 7.99975C18.415 8.65261 18.5011 9.32484 18.5 9.99975ZM7.65397 11.9997C7.55667 11.3374 7.50521 10.6692 7.49997 9.99975C7.50531 9.33033 7.55677 8.66208 7.65397 7.99974L13.346 7.99975C13.4433 8.66207 13.4948 9.33033 13.5 9.99975C13.494 10.6691 13.4426 11.3373 13.346 11.9997L7.65397 11.9997ZM2.75397 11.9997C2.41261 10.6883 2.41261 9.31123 2.75397 7.99975H5.63497C5.54996 8.6631 5.50488 9.33097 5.49997 9.99974C5.50484 10.6685 5.54992 11.3364 5.63496 11.9997L2.75397 11.9997ZM17.409 5.99975H15C14.7335 4.87391 14.3494 3.77922 13.854 2.73375C15.3505 3.42515 16.5935 4.56707 17.409 5.99975ZM11.2 2.04875C11.9747 3.27171 12.5629 4.60334 12.945 5.99974L8.05497 5.99975C8.4369 4.60329 9.02504 3.27163 9.79996 2.04874C10.033 2.02875 10.264 1.99975 10.5 1.99975C10.736 1.99975 10.969 2.02875 11.2 2.04875ZM7.14696 2.73375C6.65103 3.77913 6.26658 4.87383 5.99997 5.99974L3.58897 5.99975C4.40632 4.56671 5.65096 3.42485 7.14897 2.73374L7.14696 2.73375ZM3.59197 13.9997H5.99997C6.26631 15.1251 6.65078 16.2192 7.14697 17.2637C5.65077 16.5728 4.40786 15.4316 3.59197 13.9997ZM9.79696 17.9497C9.02379 16.7268 8.43702 15.3955 8.05597 13.9997L12.945 13.9997C12.5631 15.3956 11.9756 16.7268 11.202 17.9497C10.7355 17.9889 10.2665 17.9892 9.79996 17.9507L9.79696 17.9497ZM13.852 17.2647C14.3485 16.2199 14.7333 15.1255 15 13.9997H17.411C16.5942 15.4329 15.3498 16.5738 13.852 17.2647Z" fill="#fff"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="header_langs_menu">
+                        <div class="header_langs_item">RO</div>
+                        <div class="header_langs_item">EN</div>
+                    </div>
+                </div>
+            </div>
+
+           </div>
+        </div>
+    </header>
+
+    <main class="main">
+        
+        <section class="find">
+            <div class="container">
+
+                <div class="find_title">
+                    Find your 
+                    <span>
+                        dream job
+                        <svg xmlns="http://www.w3.org/2000/svg" width="242" height="14" viewBox="0 0 242 14" fill="none">
+                            <path d="M5.63897 5.83831C7.52586 5.83831 9.5026 5.77873 11.3895 5.71916C12.1982 5.71916 12.917 5.65958 13.7256 5.65958C17.14 5.54043 20.5544 5.42128 23.9687 5.30214C28.1019 5.18299 32.1453 5.00426 36.2784 4.88512C42.1188 4.64682 47.9592 4.46809 53.7995 4.22979C55.1473 4.17022 56.4951 4.17022 57.8429 4.11064C61.2572 3.9915 64.6716 3.87235 68.086 3.81277C71.5004 3.69362 74.9147 3.57447 78.3291 3.5149C79.6769 3.45532 81.0247 3.39575 82.3724 3.39575C87.7635 3.2766 93.2445 3.15745 98.6356 3.0383C101.96 2.97873 105.285 2.91916 108.699 2.80001C110.047 2.80001 111.305 2.74043 112.652 2.74043C117.864 2.68085 123.165 2.62128 128.377 2.56171C133.588 2.50213 138.71 2.44256 143.921 2.38298C145.269 2.38298 146.616 2.38298 148.054 2.38298C151.468 2.38298 154.793 2.38298 158.207 2.38298C163.509 2.38298 168.72 2.38298 174.021 2.32341C175.728 2.32341 177.436 2.32341 179.143 2.32341C182.737 2.32341 186.331 2.32341 189.925 2.32341C190.195 2.32341 190.554 2.32341 190.824 2.32341C182.737 2.38298 174.56 2.44256 166.474 2.56171C163.059 2.62128 159.735 2.62128 156.32 2.68085C154.883 2.68085 153.355 2.68085 151.918 2.74043C146.976 2.8 142.124 2.91915 137.182 2.97873C131.521 3.09788 125.861 3.15745 120.2 3.2766C119.212 3.2766 118.313 3.33617 117.325 3.33617C114.27 3.45532 111.305 3.5149 108.25 3.63405C102.14 3.81277 96.0299 3.99149 89.92 4.17022C89.0215 4.17022 88.1229 4.2298 87.2244 4.28937C84.2593 4.40852 81.2044 4.58724 78.2392 4.70639C72.8481 4.94469 67.5469 5.18298 62.1558 5.42128C60.7181 5.48086 59.1907 5.60001 57.753 5.65958C54.3387 5.83831 50.9243 6.01703 47.5099 6.25533C43.197 6.49363 38.7943 6.73193 34.4814 6.97022C28.4613 7.32767 22.3514 7.68512 16.3313 8.04256C14.8937 8.10214 13.4561 8.22129 11.9286 8.28086C9.32289 8.45959 6.71719 8.63831 4.11149 8.81703C3.84193 8.81703 3.57238 8.93618 3.57238 9.17448C3.57238 9.3532 3.84193 9.53193 4.11149 9.53193C5.09986 9.53193 5.99838 9.5915 6.98675 9.5915C6.89689 9.77022 6.80704 9.94895 6.80704 10.1277C6.80704 10.783 7.61571 11.3787 8.69393 11.3787C16.1516 11.0809 23.5195 10.7234 30.9772 10.4851C37.4465 10.3064 43.9158 10.0681 50.3852 9.88937C57.4835 9.65108 64.6716 9.41278 71.7699 9.23406C74.0162 9.17448 76.2625 9.1149 78.5088 8.99576C79.1378 8.99576 79.7667 8.93618 80.4855 8.93618C91.9866 8.75746 103.488 8.51916 114.989 8.34044C121.099 8.22129 127.298 8.10214 133.408 8.04256C135.655 7.98299 137.811 7.98299 140.057 7.92342C151.828 7.80427 163.598 7.68512 175.369 7.56597C180.401 7.5064 185.432 7.44682 190.464 7.38724C194.777 7.32767 199.09 7.32767 203.403 7.20852C206.997 7.14894 210.501 7.0298 214.095 6.97022C215.892 6.91065 217.689 6.91065 219.396 6.85107C223.44 6.67235 227.483 6.49362 231.526 6.3149C231.257 6.5532 231.257 6.91065 231.347 7.14895C231.437 7.44682 231.706 7.68512 232.155 7.80426C232.515 7.92341 233.054 8.04257 233.413 7.92342C234.312 7.68512 235.21 7.44682 236.019 7.20852C236.019 7.20852 236.019 7.20852 235.929 7.20852C236.019 7.20852 236.019 7.14895 236.109 7.14895C236.199 7.14895 236.289 7.08937 236.289 7.08937H236.199C236.648 6.97022 237.097 6.85108 237.636 6.67235C238.086 6.5532 238.625 6.37448 239.074 6.25533C239.613 6.0766 240.062 5.89788 240.601 5.71916C241.141 5.54043 241.5 5.06384 241.5 4.64682C241.5 4.40852 241.41 4.2298 241.23 3.9915C241.051 3.7532 240.601 3.45533 240.152 3.39575C239.703 3.33618 239.254 3.2766 238.804 3.2766C238.715 3.2766 238.625 3.2766 238.535 3.2766C238.265 3.2766 237.906 3.2766 237.636 3.33617C236.918 3.39575 236.289 3.45533 235.57 3.45533C235.031 3.45533 234.492 3.5149 233.863 3.5149C232.335 3.57447 230.897 3.63405 229.37 3.7532C229.011 3.7532 228.561 3.81277 228.202 3.81277C228.382 3.69362 228.471 3.57447 228.471 3.45533C228.561 3.33618 228.561 3.21703 228.561 3.09788C228.561 3.0383 228.561 2.91915 228.651 2.85958C228.651 2.74043 228.651 2.62128 228.561 2.56171C228.561 2.56171 228.651 2.56171 228.651 2.50213C228.921 2.38298 229.19 2.26383 229.37 2.02554C229.55 1.84681 229.64 1.60851 229.64 1.37022C229.64 1.13192 229.55 0.953195 229.37 0.714897C229.28 0.655323 229.19 0.536173 229.1 0.476598C228.831 0.297875 228.561 0.2383 228.292 0.178725C227.753 0.0595764 227.124 0 226.495 0C225.956 0 225.506 0 224.967 0C224.248 0 223.53 0 222.811 0C221.822 0 220.744 0 219.756 0C217.06 0 214.365 0 211.669 0C209.153 0 206.548 0 204.032 0C201.696 0 199.449 0 197.113 0C187.858 0 178.694 0.0595773 169.439 0.119152C162.52 0.178726 155.602 0.238299 148.683 0.238299C145.628 0.238299 142.483 0.297872 139.428 0.357446C132.51 0.476595 125.591 0.53617 118.673 0.655319C116.696 0.655319 114.719 0.714897 112.742 0.714897C111.574 0.714897 110.496 0.774471 109.328 0.774471C102.499 0.953195 95.6705 1.13192 88.8418 1.31064C86.7752 1.37022 84.7086 1.42979 82.5521 1.48936C81.3841 1.48936 80.216 1.54894 79.0479 1.60852C72.2192 1.84681 65.4803 2.08511 58.6515 2.32341C55.1473 2.44256 51.6431 2.5617 48.1389 2.74043C42.1188 2.97873 36.0987 3.21703 30.1685 3.5149C24.9571 3.7532 19.7457 3.93192 14.5343 4.11064C13.7256 4.17022 12.917 4.17022 12.0184 4.22979C10.6707 4.28937 9.32289 4.28937 7.97512 4.34894C6.80704 4.40852 5.63897 4.40852 4.38104 4.40852C4.29119 4.22979 3.93178 4.05107 3.66223 4.05107C2.85356 4.11065 2.13475 4.17022 1.32608 4.22979C0.966674 4.22979 0.607266 4.34894 0.517415 4.64682C0.427563 4.94469 0.697118 5.24256 1.05653 5.30214C1.41593 5.36171 1.68549 5.42129 2.0449 5.48086C2.4043 5.54044 2.67386 5.54043 3.03327 5.54043C3.93178 5.77873 4.74045 5.77873 5.63897 5.83831ZM215.892 3.87235C216.97 3.87235 218.139 3.87235 219.217 3.87235C219.307 4.05107 219.486 4.17022 219.666 4.28937C219.217 4.28937 218.767 4.34894 218.408 4.34894C217.599 4.34894 216.791 4.40852 215.982 4.40852C212.388 4.46809 208.884 4.58724 205.29 4.64682C203.672 4.70639 202.055 4.76596 200.438 4.76596C197.922 4.76596 195.316 4.82554 192.8 4.82554C186.96 4.88511 181.209 4.94469 175.369 5.00426C164.048 5.12341 152.816 5.24256 141.495 5.36171C133.408 5.42128 125.322 5.60001 117.235 5.77873C105.105 6.01703 92.8851 6.19575 80.7551 6.43405C78.3291 6.49363 75.9031 6.5532 73.4771 6.67235C66.5585 6.91065 59.6399 7.08937 52.7213 7.32767C45.9824 7.56597 39.1537 7.74469 32.4148 7.98299C31.7858 7.98299 31.1569 8.04256 30.5279 8.04256C32.325 7.92341 34.2118 7.86384 36.0089 7.74469C42.3884 7.44682 48.7678 7.08937 55.1473 6.7915C57.3936 6.67235 59.6399 6.5532 61.7964 6.43405C62.9644 6.37448 64.1325 6.3149 65.2107 6.3149C71.8598 6.0766 78.5088 5.77873 85.1578 5.54043C86.4158 5.48086 87.7635 5.42128 89.0215 5.36171C90.9083 5.30213 92.7952 5.24256 94.5923 5.24256C101.421 5.06384 108.25 4.88511 115.078 4.70639C116.606 4.64682 118.133 4.64682 119.571 4.58724C119.93 4.58724 120.38 4.58724 120.739 4.58724C121.817 4.58724 122.896 4.58724 123.884 4.52766C130.713 4.40852 137.631 4.34894 144.46 4.22979C147.605 4.17022 150.75 4.11064 153.894 4.11064C164.048 4.05107 174.291 3.99149 184.444 3.93192C195.136 3.93192 205.559 3.93192 215.892 3.87235Z" fill="#26A4FF"/>
+                            <path d="M19.2061 14C19.5038 14 19.7452 13.84 19.7452 13.6426C19.7452 13.4452 19.5038 13.2852 19.2061 13.2852C18.9084 13.2852 18.667 13.4452 18.667 13.6426C18.667 13.84 18.9084 14 19.2061 14Z" fill="#26A4FF"/>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="find_descr">
+                    Find your next career at companies like HubSpot, Nike, and Dropbox
+                </div>
+
+                <div class="promo_form job_form">
+                    <div class="job_form_wrapper">
+                        <div class="promo_form_item">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                                    <circle cx="10.7669" cy="10.8499" r="8.98856" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.0186 17.5684L20.5426 21.0832" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                            </span>
+                            <input type="text" name="job" placeholder="Job title or keyword">
+                        </div>
+                        <div class="promo_form_item">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 8.58352C11 7.20224 9.88076 6.08301 8.50051 6.08301C7.11924 6.08301 6 7.20224 6 8.58352C6 9.96377 7.11924 11.083 8.50051 11.083C9.88076 11.083 11 9.96377 11 8.58352Z" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.49951 19.083C7.30104 19.083 1 13.9814 1 8.6463C1 4.46964 4.3571 1.08301 8.49951 1.08301C12.6419 1.08301 16 4.46964 16 8.6463C16 13.9814 9.69799 19.083 8.49951 19.083Z" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                            </span>
+                            <select name="country">
+                                <option value="1">Florence, Italy</option>
+                            </select>
+                            <div class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                                    <path d="M10.6663 1.25L5.99967 5.91667L1.33301 1.25" stroke="#7C8493" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo_form_btn">
+                        Search my job
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="all">
+            <div class="container">
+                
+                <div class="all_wrapper">
+                    <div class="all_filter">
+                        <div class="all_filter_item">
+                            <div class="all_filter_title" onclick="changeActive($(this))">
+                                Type of Employment 
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                        <path d="M1.16634 6.91699L6.99967 1.08366L12.833 6.91699" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="all_filter_content">
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-1">
+                                    <label for="type-1">
+                                        Full-time (3)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-2">
+                                    <label for="type-2">
+                                        Part-Time (5)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-3">
+                                    <label for="type-3">
+                                        Remote (2)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-4">
+                                    <label for="type-4">
+                                        Internship (24)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-5">
+                                    <label for="type-5">
+                                        Contract (3)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all_filter_item">
+                            <div class="all_filter_title" onclick="changeActive($(this))">
+                                Categories
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                        <path d="M1.16634 6.91699L6.99967 1.08366L12.833 6.91699" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="all_filter_content">
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-6">
+                                    <label for="type-6">
+                                        Design (24)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-7">
+                                    <label for="type-7">
+                                        Sales (3)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-8">
+                                    <label for="type-8">
+                                        Marketing (3)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-9">
+                                    <label for="type-9">
+                                        Business (3)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-10">
+                                    <label for="type-10">
+                                        Human Resource (6)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-11">
+                                    <label for="type-11">
+                                        Finance (4)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-12">
+                                    <label for="type-12">
+                                        Engineering (4)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-13">
+                                    <label for="type-13">
+                                        Technology (5)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all_filter_item">
+                            <div class="all_filter_title" onclick="changeActive($(this))">
+                                Job Level
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                        <path d="M1.16634 6.91699L6.99967 1.08366L12.833 6.91699" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="all_filter_content">
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-14">
+                                    <label for="type-14">
+                                        Entry Level (57)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-15">
+                                    <label for="type-15">
+                                        Mid Level (3)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-16">
+                                    <label for="type-16">
+                                        Senior Level (5)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-17">
+                                    <label for="type-17">
+                                        Director (12)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-18">
+                                    <label for="type-18">
+                                        VP or Above (8)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all_filter_item">
+                            <div class="all_filter_title" onclick="changeActive($(this))">
+                                Salary Range
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                        <path d="M1.16634 6.91699L6.99967 1.08366L12.833 6.91699" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="all_filter_content">
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-19">
+                                    <label for="type-1fa-rotate-90">
+                                        $700 - $1000 (4)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-20">
+                                    <label for="type-20">
+                                        $100 - $1500 (6)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-30">
+                                    <label for="type-30">
+                                        $1500 - $2000 (10)
+                                    </label>
+                                </div>
+                                <div class="all_filter_content_item">
+                                    <input type="checkbox" name="" id="type-40">
+                                    <label for="type-40">
+                                        $3000 or above (4)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all_content">
+                        <div class="all_content_title">
+                            All Jobs
+                        </div>
+                        <div class="all_content_subtitle">
+                            Showing 73 results
+                        </div>
+                        <div class="all_content_wrapper">
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Social Media Assistant
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Social Media Assistant
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Brand Designer
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Interactive Developer
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Email Marketing
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Lead Engineer
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Product Designer
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all_content_item">
+                                <div class="all_content_box">
+                                    <div class="all_content_title">
+                                        Customer Manager
+                                    </div>
+                                    <div class="all_content_country">
+                                        Paris, France
+                                    </div>
+                                    <div class="all_content_category">
+                                        Full-Time
+                                    </div>
+                                </div>
+                                <div class="all_content_box">
+                                    <a href="detail.html" class="all_content_btn">
+                                        Apply
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    <div class="pagination">
+                        <div class="pagination_prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_214_21841)">
+                                  <path d="M15 6L9 12L15 18" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_214_21841">
+                                    <rect width="24" height="24" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="pagination_wrapper">
+                            <div class="pagination_item active">
+                                1
+                            </div>
+                            <div class="pagination_item">
+                                2
+                            </div>
+                            <div class="pagination_item">
+                                3
+                            </div>
+                            <div class="pagination_item">
+                                4
+                            </div>
+                            <div class="pagination_item">
+                                5
+                            </div>
+                            <div class="pagination_item">
+                                ...
+                            </div>
+                            <div class="pagination_item">
+                                33
+                            </div>
+                        </div>
+                        <div class="pagination_next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                <g clip-path="url(#clip0_214_21859)">
+                                  <path d="M9.375 6L15.625 12L9.375 18" stroke="#25324B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_214_21859">
+                                    <rect width="25" height="24" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        
+
+    </main>
+  
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+
+                <div class="footer_item">
+                    <div class="footer_logo">
+                        <img src="/icons/logo.png" alt="">
+                    </div>
+                    <div class="footer_descr">
+                        Great platform for the job seeker that passionate about startups. Find your dream job easier.
+                    </div>
+                </div>
+
+                <div class="footer_item">
+                    <div class="footer_item_title">
+                        Меню
+                    </div>
+                    <div class="footer_item_link">
+                        <a href="#">Работа</a>
+                    </div>
+                    <div class="footer_item_link">
+                        <a href="#">Условия</a>
+                    </div>
+                </div>
+
+                <div class="footer_item">
+                    <div class="footer_item_title">
+                        Socials
+                    </div>
+
+                    <div class="footer_descr">
+                        The latest job news, articles, sent to your inbox weekly.
+                    </div>
+
+                    <div class="footer_socials">
+                        <div class="footer_socilas_item">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.1" cx="16" cy="16" r="16" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3517 22V16.6H18.99L19.2576 14.2H17.3517V13.0311C17.3517 12.4131 17.3674 11.8 18.2304 11.8H19.1045V10.0841C19.1045 10.0583 18.3537 10 17.5941 10C16.0078 10 15.0145 10.9943 15.0145 12.8201V14.2H13.2617V16.6H15.0145V22H17.3517Z" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </div>
+                        <div class="footer_socials_item">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.1" cx="16" cy="16" r="16" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.744 10.0736C12.7679 10.1177 11.9219 10.3565 11.2388 11.0372C10.5533 11.7215 10.3176 12.5714 10.2735 13.538C10.246 14.1413 10.0856 18.699 10.5509 19.8942C10.8647 20.7006 11.4828 21.3206 12.296 21.6356C12.6754 21.7833 13.1086 21.8833 13.744 21.9125C19.0568 22.1531 21.0262 22.0221 21.8567 19.8942C22.004 19.5154 22.1055 19.0824 22.1335 18.4481C22.3763 13.118 22.0941 11.9627 21.1682 11.0372C20.4338 10.3041 19.5699 9.80505 13.744 10.0736ZM13.7929 20.8405C13.2112 20.8143 12.8956 20.7173 12.685 20.6357C12.1552 20.4297 11.7572 20.0331 11.5526 19.506C11.1982 18.5978 11.3158 14.2843 11.3474 13.5863C11.3784 12.9026 11.5168 12.2778 11.9989 11.7954C12.5955 11.1999 13.3663 10.908 18.6147 11.145C19.2996 11.176 19.9254 11.3142 20.4087 11.7954C21.0053 12.3909 21.3012 13.1682 21.0602 18.4001C21.0339 18.9807 20.9367 19.2958 20.855 19.506C20.315 20.8907 19.0729 21.0829 13.7929 20.8405ZM18.6726 12.8138C18.6726 13.208 18.9929 13.5286 19.3885 13.5286C19.7841 13.5286 20.105 13.208 20.105 12.8138C20.105 12.4195 19.7841 12.0992 19.3885 12.0992C18.9929 12.0992 18.6726 12.4195 18.6726 12.8138ZM13.1402 15.9928C13.1402 17.6817 14.5118 19.051 16.2038 19.051C17.8958 19.051 19.2674 17.6817 19.2674 15.9928C19.2674 14.3038 17.8958 12.9353 16.2038 12.9353C14.5118 12.9353 13.1402 14.3038 13.1402 15.9928ZM14.2153 15.9928C14.2153 14.897 15.1054 14.0079 16.2038 14.0079C17.3021 14.0079 18.1923 14.897 18.1923 15.9928C18.1923 17.0892 17.3021 17.9785 16.2038 17.9785C15.1054 17.9785 14.2153 17.0892 14.2153 15.9928Z" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </div>      
+                        <div class="footer_socials_item">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.1" cx="16" cy="16" r="16" fill="white"/>
+                                    <path d="M22.3341 14.36C22.6209 15.452 22.6209 16.544 22.334 17.636C22.047 18.7282 21.4957 19.6823 20.6796 20.4989C19.8636 21.3155 18.9099 21.8675 17.8186 22.1546C16.7274 22.4418 15.6362 22.4418 14.5449 22.1547C13.4534 21.8675 12.4998 21.3156 11.6838 20.4991C10.8678 19.6825 10.3165 18.7282 10.0294 17.6361C9.74248 16.5441 9.74248 15.4522 10.0294 14.36C10.3164 13.268 10.8679 12.3137 11.6839 11.4971C12.4999 10.6805 13.4536 10.1286 14.5449 9.84143C15.636 9.55423 16.7273 9.55439 17.8186 9.84149C18.9098 10.1287 19.8634 10.6807 20.6794 11.4972C21.4955 12.3138 22.0471 13.2681 22.3341 14.36ZM20.0236 19.8426C20.9918 18.8737 21.517 17.7074 21.599 16.3439L21.4234 16.3147C21.353 16.3029 21.2008 16.2971 20.9666 16.297C20.7324 16.297 20.4931 16.3136 20.2492 16.3468C20.005 16.3801 19.6967 16.4483 19.3237 16.552C18.9508 16.6555 18.5789 16.7912 18.208 16.9593C18.5868 18.2369 18.8523 19.4637 19.0046 20.6397C19.3872 20.4052 19.7269 20.1395 20.0236 19.8426ZM15.5553 21.3957C16.4024 21.4934 17.2223 21.3997 18.0149 21.1144C17.8548 19.9853 17.5931 18.7702 17.2301 17.4691C15.7308 18.3443 14.3916 19.3718 13.2126 20.5518C13.9271 21.0166 14.708 21.298 15.5553 21.3957ZM11.2123 18.1986C11.4797 18.8101 11.8556 19.3581 12.3398 19.8427C12.3945 19.8974 12.4375 19.9364 12.4686 19.9599C13.8821 18.5454 15.3774 17.4123 16.9549 16.5606C16.8378 16.1934 16.7245 15.873 16.6152 15.5994C16.5916 15.6074 16.5576 15.6239 16.5127 15.6493C16.4677 15.6748 16.4356 15.6934 16.4159 15.7052L16.1231 15.8458C15.92 15.9396 15.632 16.0402 15.2593 16.1477C14.8863 16.2549 14.4735 16.3517 14.0205 16.4377C13.5676 16.5236 13.0463 16.5587 12.4567 16.543C11.8672 16.5274 11.3011 16.4435 10.7584 16.2911C10.7935 16.9514 10.945 17.5873 11.2123 18.1986ZM12.3398 12.1534C11.4261 13.0677 10.903 14.1774 10.7702 15.4823L10.7936 15.3299C11.2309 15.4941 11.7209 15.582 12.2636 15.5936C12.8063 15.6053 13.2856 15.5732 13.7015 15.497C14.1172 15.4207 14.5447 15.3133 14.9842 15.1747C15.4233 15.0359 15.7161 14.9346 15.8625 14.8699C16.0089 14.8054 16.1251 14.7537 16.2111 14.7146L16.2286 14.7089L16.2404 14.6971C15.6195 13.3102 14.9207 12.0636 14.1437 10.958C13.4564 11.2392 12.8553 11.6377 12.3398 12.1534ZM17.3385 10.6852C16.6025 10.527 15.8712 10.5182 15.1452 10.6588C15.883 11.7177 16.5489 12.884 17.1422 14.1577C18.0404 13.5014 18.7821 12.6457 19.3678 11.5909C18.7509 11.1455 18.0743 10.8435 17.3385 10.6852ZM20.0177 12.2648C19.9864 12.3116 19.9464 12.3694 19.8976 12.4377C19.8488 12.506 19.7892 12.5891 19.7189 12.6868C19.6487 12.7844 19.5675 12.891 19.4759 13.0062C19.3841 13.1215 19.2846 13.2425 19.1771 13.3696C19.0698 13.4966 18.9526 13.6294 18.8258 13.7681C18.6987 13.9069 18.5671 14.0446 18.4304 14.1813C18.2938 14.318 18.1463 14.4577 17.9883 14.6003C17.8303 14.743 17.6711 14.8746 17.5111 14.9958C17.5188 15.0271 17.5364 15.074 17.5638 15.1365C17.5911 15.199 17.6125 15.246 17.6284 15.277C17.7181 15.5155 17.8177 15.7871 17.9268 16.0919C18.3056 15.9317 18.6883 15.8007 19.075 15.699C19.4615 15.5976 19.7834 15.5292 20.0411 15.494C20.299 15.4589 20.5557 15.4384 20.8113 15.4325C21.0671 15.4266 21.2387 15.4286 21.3267 15.4383C21.4147 15.4481 21.4996 15.4588 21.5815 15.4705L21.5933 15.4706C21.4683 14.2047 20.959 13.1126 20.0646 12.1945L20.0177 12.2648Z" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </div>                  
+                        <div class="footer_socials_item">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.1" cx="16" cy="16" r="16" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1394 21H19.1408V17.5005C19.1408 16.5405 18.7176 16.0049 17.9587 16.0049C17.1327 16.0049 16.6426 16.563 16.6426 17.5005V21H14.644V14.5H16.6426V15.231C16.6426 15.231 17.2696 14.1299 18.6826 14.1299C20.0961 14.1299 21.1394 14.9931 21.1394 16.7791V21ZM12.3666 13.4604C11.6926 13.4604 11.1465 12.9095 11.1465 12.23C11.1465 11.551 11.6926 11 12.3666 11C13.0401 11 13.5863 11.551 13.5863 12.23C13.5868 12.9095 13.0401 13.4604 12.3666 13.4604ZM11.1465 21H13.6447V14.5H11.1465V21Z" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </div>
+                        <div class="footer_socials_item">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.1" cx="16" cy="16" r="16" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8798 21C18.4049 21 20.8799 17.1522 20.8799 13.8158C20.8799 13.7062 20.8799 13.5975 20.8727 13.4892C21.3542 13.1323 21.7697 12.6892 22.1001 12.1821C21.6516 12.3864 21.1749 12.5204 20.6875 12.5795C21.2007 12.2638 21.5851 11.7679 21.7691 11.1827C21.2859 11.4768 20.7576 11.6844 20.2066 11.7958C19.2749 10.7792 17.7165 10.73 16.7254 11.6862C16.0869 12.3028 15.8152 13.2221 16.0137 14.099C14.0357 13.9968 12.1926 13.0381 10.943 11.461C10.2901 12.6148 10.624 14.0902 11.7051 14.8311C11.3136 14.8194 10.9304 14.7112 10.5881 14.5155V14.5476C10.5887 15.7494 11.4143 16.7842 12.5619 17.0223C12.1998 17.1238 11.8196 17.1385 11.4515 17.0653C11.7734 18.0942 12.6974 18.7989 13.7497 18.8192C12.8785 19.5219 11.8022 19.9035 10.6942 19.9023C10.4987 19.9016 10.3033 19.8899 10.1084 19.866C11.2338 20.6068 12.5427 21 13.8798 20.9982" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_line"></div>
+            <div class="footer_copyright">
+                2021 &copy; NLE. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js"></script>
+    
+    <script>
+        function changeActive(item){
+            $(item).toggleClass('active');
+            $(item).next('.all_filter_content').slideToggle();
+        }
+    </script>
+
+</body>
+</html>

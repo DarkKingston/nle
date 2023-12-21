@@ -36,6 +36,9 @@
     font-size: 18px;
     cursor: pointer;
 }
+.header_menu_item.active{
+    font-weight: 600;
+}
 .header_menu_item:first-child{
     margin-left: 0;
 }

@@ -1,0 +1,44 @@
+.term{
+    margin-top: 0;
+}
+
+.our_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.form_term{
+    margin-top: 0;
+}
+
+.term_title{
+    margin: 0 auto;
+    text-align: center;
+    max-width: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #25324B;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-align: center;
+    gap: 10px;
+}
+
+.term_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 25px 30px;
+    margin-top: 30px;
+}

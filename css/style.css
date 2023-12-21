@@ -8,4 +8,7 @@
 @import './components/footer.css';
 
 /* page styles */
-@import './pages/index.css'
+@import './pages/index.css';
+@import './pages/job.css';
+@import './pages/detail.css';
+@import './pages/term.css';
